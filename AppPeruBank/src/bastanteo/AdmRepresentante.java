@@ -80,5 +80,9 @@ public class AdmRepresentante {
 	                return representante;
 	        return null;
 	}
+	public int cantidadDeRepresentante(){
+		return representantes.size();
+	}
+
 
 }
