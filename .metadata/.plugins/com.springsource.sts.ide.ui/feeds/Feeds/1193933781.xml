@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:wfw="http://wellformedweb.org/CommentAPI/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+
+<channel>
+	<title>SpringSource Team Blog</title>
+	
+	<link>http://blog.springsource.org</link>
+	<description>The voice of SpringSource</description>
+	<lastBuildDate>Thu, 17 Nov 2011 17:29:41 +0000</lastBuildDate>
+	<language>en</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.1.1</generator>
+		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/SpringSourceTeamBlog" /><feedburner:info uri="springsourceteamblog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Using Cloud Foundry Services with Spring: Part 4 – Spring Profiles</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/9aMuyJEWS50/</link>
+		<comments>http://blog.springsource.org/2011/11/10/using-cloud-foundry-services-with-spring-part-4-%e2%80%93-spring-profiles/#comments</comments>
+		<pubDate>Thu, 10 Nov 2011 19:45:10 +0000</pubDate>
+		<dc:creator>Scott Andrews</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=10154</guid>
+		<description>Spring 3.1 adds significant new support for environments. This new Environment API makes it easy to expose properties to an application or conditionally load a fragment of configuration. In an earlier post in this series, Ramnivas showed how Cloud Foundry can automatically connect to a database without manual configuration. When you need more control over  &lt;a href="http://blog.springsource.org/2011/11/10/using-cloud-foundry-services-with-spring-part-4-%e2%80%93-spring-profiles/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/9aMuyJEWS50" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/11/10/using-cloud-foundry-services-with-spring-part-4-%e2%80%93-spring-profiles/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/11/10/using-cloud-foundry-services-with-spring-part-4-%e2%80%93-spring-profiles/</feedburner:origLink></item>
+		<item>
+		<title>Using Cloud Foundry Services with Spring: Part 3 – the &lt;cloud&gt; namespace</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/Pi2R7s2juCk/</link>
+		<comments>http://blog.springsource.org/2011/11/09/using-cloud-foundry-services-with-spring-applications-part-3-the-cloud-namespace/#comments</comments>
+		<pubDate>Wed, 09 Nov 2011 14:58:59 +0000</pubDate>
+		<dc:creator>Thomas Risberg</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Data Access]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Spring Data]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=10172</guid>
+		<description>We saw in the previous blog post Using Cloud Foundry Services with Spring: Part 2 &amp;#8211; Auto-reconfiguration that when you deploy a Spring application, your use of data services will be detected, and your application will automatically be re-configured to use the cloud services available to your application. This works great for simple applications and  &lt;a href="http://blog.springsource.org/2011/11/09/using-cloud-foundry-services-with-spring-applications-part-3-the-cloud-namespace/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/Pi2R7s2juCk" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/11/09/using-cloud-foundry-services-with-spring-applications-part-3-the-cloud-namespace/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/11/09/using-cloud-foundry-services-with-spring-applications-part-3-the-cloud-namespace/</feedburner:origLink></item>
+		<item>
+		<title>Updated Maven Support for Android Projects</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/0pCTBmBxxR0/</link>
+		<comments>http://blog.springsource.org/2011/11/07/updated-maven-support-for-android-projects/#comments</comments>
+		<pubDate>Mon, 07 Nov 2011 23:02:26 +0000</pubDate>
+		<dc:creator>Roy Clarkson</dc:creator>
+				<category><![CDATA[Android]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=10230</guid>
+		<description>It has been a while since my initial posts on using Maven with Spring Android, and the state of the tools has changed somewhat. With the recent release of the SDK for Android 4.0 and revision 14 of the Android Development Tools (ADT), Google made several changes that impacted the third party Maven plugin support  &lt;a href="http://blog.springsource.org/2011/11/07/updated-maven-support-for-android-projects/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/0pCTBmBxxR0" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/11/07/updated-maven-support-for-android-projects/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/11/07/updated-maven-support-for-android-projects/</feedburner:origLink></item>
+		<item>
+		<title>Using Cloud Foundry Services with Spring: Part 2 – Auto-reconfiguration</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/ttsvJyOfSXk/</link>
+		<comments>http://blog.springsource.org/2011/11/04/using-cloud-foundry-services-with-spring-part-2-auto-reconfiguration/#comments</comments>
+		<pubDate>Fri, 04 Nov 2011 17:33:03 +0000</pubDate>
+		<dc:creator>Ramnivas Laddad</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Spring Data]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=10099</guid>
+		<description>If you watched the video for the Cloud Foundry launch event, you saw that we deployed the Spring Travel application downloaded from Spring Web Flow samples, bound a MySQL service to it, and dragged and dropped the application to the Cloud Foundry server in STS, without making a single line of change in the application  &lt;a href="http://blog.springsource.org/2011/11/04/using-cloud-foundry-services-with-spring-part-2-auto-reconfiguration/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/ttsvJyOfSXk" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/11/04/using-cloud-foundry-services-with-spring-part-2-auto-reconfiguration/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/11/04/using-cloud-foundry-services-with-spring-part-2-auto-reconfiguration/</feedburner:origLink></item>
+		<item>
+		<title>Upgrading Maven integration for SpringSource Tool Suite 2.8.0</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/3oylr5Kf6U4/</link>
+		<comments>http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/#comments</comments>
+		<pubDate>Tue, 18 Oct 2011 20:02:43 +0000</pubDate>
+		<dc:creator>Andrew Eisenberg</dc:creator>
+				<category><![CDATA[SpringSource]]></category>
+		<category><![CDATA[Tools]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=10079</guid>
+		<description>Today, we released version 2.8.0 of the SpringSource Tool Suite. Along with an update to Eclipse Indigo SR1 (which brings you full IDE support for Java7), we also updated the Maven integration from the old and unmaintained m2eclipse versions 0.12.x to the latest version m2e 1.0 – which is now shipping as part of the  &lt;a href="http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/3oylr5Kf6U4" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/feed/</wfw:commentRss>
+		<slash:comments>80</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/</feedburner:origLink></item>
+		<item>
+		<title>Using Cloud Foundry Services with Spring: Part 1 – The Basics</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/Xrw09UsTqOE/</link>
+		<comments>http://blog.springsource.org/2011/10/13/using-cloud-foundry-services-with-spring-part-1-the-basics/#comments</comments>
+		<pubDate>Thu, 13 Oct 2011 19:02:39 +0000</pubDate>
+		<dc:creator>Ramnivas Laddad</dc:creator>
+				<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=10001</guid>
+		<description>Services offered in Cloud Foundry make writing efficient and effective applications possible. Developers can now choose just the right kind of services without worrying about operating those services. For example, a portion of an application can choose Postgres for the parts where transactional access is crucial, MongoDB where interacting with data as a collection of  &lt;a href="http://blog.springsource.org/2011/10/13/using-cloud-foundry-services-with-spring-part-1-the-basics/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/Xrw09UsTqOE" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/10/13/using-cloud-foundry-services-with-spring-part-1-the-basics/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/10/13/using-cloud-foundry-services-with-spring-part-1-the-basics/</feedburner:origLink></item>
+		<item>
+		<title>Spring Framework 3.1 RC1 released</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/GMBHrhff5cI/</link>
+		<comments>http://blog.springsource.org/2011/10/12/spring-framework-3-1-rc1-released/#comments</comments>
+		<pubDate>Wed, 12 Oct 2011 23:03:24 +0000</pubDate>
+		<dc:creator>Juergen Hoeller</dc:creator>
+				<category><![CDATA[3.1]]></category>
+		<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=9977</guid>
+		<description>It is my pleasure to announce that the first Spring Framework 3.1 release candidate has &amp;#8211; finally &amp;#8211; been released this week! We have been working on this release for several months, completing our milestone work and recently adding support for Java SE 7 and for Hibernate 4.0 to the feature list. Spring Framework 3.1  &lt;a href="http://blog.springsource.org/2011/10/12/spring-framework-3-1-rc1-released/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/GMBHrhff5cI" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/10/12/spring-framework-3-1-rc1-released/feed/</wfw:commentRss>
+		<slash:comments>16</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/10/12/spring-framework-3-1-rc1-released/</feedburner:origLink></item>
+		<item>
+		<title>Rapid Cloud Foundry Deployments with Maven</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/GXY9MhdRvmU/</link>
+		<comments>http://blog.springsource.org/2011/09/22/rapid-cloud-foundry-deployments-with-maven/#comments</comments>
+		<pubDate>Thu, 22 Sep 2011 18:14:37 +0000</pubDate>
+		<dc:creator>Gunnar Hillert</dc:creator>
+				<category><![CDATA[Builds]]></category>
+		<category><![CDATA[Cloud Computing]]></category>
+		<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Open Source]]></category>
+		<category><![CDATA[Tools]]></category>
+		<category><![CDATA[deployment]]></category>
+		<category><![CDATA[maven]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=9873</guid>
+		<description>Apache Maven is a very popular choice in the Java community for building and deploying applications.  The Cloud Foundry team has released the Cloud Foundry Maven Plugin to integrate with applications’ development lifecycle, including deployment to the cloud.  The same Maven plugin can be used to manage application pushes and updates to any Cloud Foundry instance.  &lt;a href="http://blog.springsource.org/2011/09/22/rapid-cloud-foundry-deployments-with-maven/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/GXY9MhdRvmU" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/09/22/rapid-cloud-foundry-deployments-with-maven/feed/</wfw:commentRss>
+		<slash:comments>11</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/09/22/rapid-cloud-foundry-deployments-with-maven/</feedburner:origLink></item>
+		<item>
+		<title>New application layering and persistence choices in Spring Roo 1.2</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/9xY0776HF-g/</link>
+		<comments>http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/#comments</comments>
+		<pubDate>Wed, 14 Sep 2011 17:18:13 +0000</pubDate>
+		<dc:creator>Stefan Schmidt</dc:creator>
+				<category><![CDATA[Cloud Foundry]]></category>
+		<category><![CDATA[Data Access]]></category>
+		<category><![CDATA[Java]]></category>
+		<category><![CDATA[Roo]]></category>
+		<category><![CDATA[Spring]]></category>
+		<category><![CDATA[Spring Data]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=9778</guid>
+		<description>Java enterprise applications can take many shapes and forms. Depending on their requirements, developers need to decide which specific architectural layers their application needs. Up until now, Spring Roo has taken a pragmatic approach to reduce the often unnecessary complexity introduced by service facade, repository or DAO layers. The newly-released Spring Roo 1.2.0.M1 (see announcement)  &lt;a href="http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/9xY0776HF-g" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/feed/</wfw:commentRss>
+		<slash:comments>9</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/</feedburner:origLink></item>
+		<item>
+		<title>Spring Roo 1.2.0.M1 released</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/s_JlbKn5FtY/</link>
+		<comments>http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/#comments</comments>
+		<pubDate>Wed, 14 Sep 2011 12:28:39 +0000</pubDate>
+		<dc:creator>Alan Stewart</dc:creator>
+				<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.com/?p=9779</guid>
+		<description>The Spring Roo team is delighted to announce the availability of our first 1.2.0 milestone. The Roo 1.2.0.M1 release continues the Roo vision of making it fast and easy to build Spring-based enterprise Java applications. We’ve listened to the community and included in this release some of the most highly-requested features: Ten times faster (!).  &lt;a href="http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/s_JlbKn5FtY" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/feed/</wfw:commentRss>
+		<slash:comments>10</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/</feedburner:origLink></item>
+	</channel>
+</rss>
