@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="54" version="2.0">
+<workbench progressCount="78" version="2.0">
 <workbenchAdvisor/>
 <window height="728" maximized="true" width="1024" x="125" y="0">
 <fastViewData fastViewLocation="1024">
@@ -27,7 +27,7 @@
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.jdt.ui.CompilationUnitEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.jdt.ui.ClassFileEditor" itemType="typePlaceholder" x="-1" y="-1"/>
-<coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -38,13 +38,27 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmRepresentanteTest.java" partName="AdmRepresentanteTest.java" path="C:/Users/Vanessa/FinalProjectPeruBank/AppPeruBank/test/bastanteo/AdmRepresentanteTest.java" title="AdmRepresentanteTest.java" tooltip="AppPeruBank/test/bastanteo/AdmRepresentanteTest.java" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmRepresentanteTest.java" partName="AdmRepresentanteTest.java" path="C:/Users/Vanessa/FinalProjectPeruBank/AppPeruBank/test/bastanteo/AdmRepresentanteTest.java" title="AdmRepresentanteTest.java" tooltip="AppPeruBank/test/bastanteo/AdmRepresentanteTest.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppPeruBank/test/bastanteo/AdmRepresentanteTest.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="280" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2225" selectionTopPixel="953"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PeruBankException.java" partName="PeruBankException.java" path="C:/Users/Vanessa/FinalProjectPeruBank/AppPeruBank/src/bastanteo/PeruBankException.java" title="PeruBankException.java" tooltip="AppPeruBank/src/bastanteo/PeruBankException.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppPeruBank/src/bastanteo/PeruBankException.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="35" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmRepresentante.java" partName="AdmRepresentante.java" path="C:/Users/Vanessa/FinalProjectPeruBank/AppPeruBank/src/bastanteo/AdmRepresentante.java" title="AdmRepresentante.java" tooltip="AppPeruBank/src/bastanteo/AdmRepresentante.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/AppPeruBank/src/bastanteo/AdmRepresentante.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2926" selectionTopPixel="902"/>
+</editor>
+<editor activePart="true" focus="true" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" partName="Dashboard" title="Dashboard" tooltip="Dashboard" workbook="DefaultEditorWorkbook">
+<input factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" openDashboard="true"/>
 </editor>
 </editors>
 <views>
@@ -66,10 +80,6 @@
 <view id="org.eclipse.contribution.xref.ui.views.XReferenceView" partName="Cross References"/>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<expanded>
-<category IMemento.internal.id="Warnings (1 item)"/>
-<category IMemento.internal.id="Errors"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90" org.eclipse.ui.ide.severityAndDescriptionField="300"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -80,9 +90,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="1" rootMode="1" workingSetName="">
-<customFilters userDefinedPatternsEnabled="false">
-<xmlDefinedFilters>
-<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
+<customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
 <child filterId="org.eclipse.ajdt.javamodel.CompilationUnitFilter" isEnabled="true"/>
 <child filterId="org.eclipse.pde.ui.ExternalPluginLibrariesFilter1" isEnabled="true"/>
 <child filterId="org.eclipse.ajdt.ui.editor.outline.PointcutFilter" isEnabled="false"/>
@@ -144,7 +152,7 @@
 </view>
 <view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
 </views>
-<perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
+<perspectives activePart="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.springsource.sts.internal.ide.ui.perspective.StsPerspective" id="com.springsource.sts.ide.perspective" label="Spring"/>
 <alwaysOnActionSet id="com.springsource.sts.ide.help.actionSet"/>
@@ -515,6 +523,10 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppPeruBank/test/bastanteo/AdmPoderesTest.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppPeruBank/test/bastanteo/AdmRepresentanteTest.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppPeruBank/src/bastanteo/AdmRepresentante.java"/>
+<editor factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppPeruBank/src/bastanteo/PeruBankException.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/AppPeruBank/src/bastanteo/AdmRepresentante.java"/>
+<editor factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" openDashboard="true"/>
 </editors>
 <item historyLabel="Dashboard" index="0"/>
 <item historyLabel="AdmRepresentanteTest.java" index="1">
@@ -567,9 +579,42 @@
 <item historyLabel="AdmRepresentante.java" index="8">
 <position info="not_deleted" x="345" y="0"/>
 </item>
-<item active="true" historyLabel="AdmRepresentanteTest.java" index="7">
+<item historyLabel="AdmRepresentanteTest.java" index="7">
 <position/>
 </item>
+<item historyLabel="Dashboard" index="9"/>
+<item historyLabel="AdmRepresentanteTest.java" index="7">
+<position info="not_deleted" x="243" y="0"/>
+</item>
+<item historyLabel="PeruBankException.java" index="10">
+<position info="not_deleted" x="147" y="0"/>
+</item>
+<item historyLabel="AdmRepresentanteTest.java" index="7">
+<position info="not_deleted" x="98" y="20"/>
+</item>
+<item historyLabel="PeruBankException.java" index="10">
+<position info="not_deleted" x="35" y="17"/>
+</item>
+<item historyLabel="AdmRepresentanteTest.java" index="7">
+<position info="not_deleted" x="2575" y="0"/>
+</item>
+<item historyLabel="AdmRepresentante.java" index="11">
+<position info="not_deleted" x="2926" y="0"/>
+</item>
+<item historyLabel="AdmRepresentanteTest.java" index="7">
+<position info="not_deleted" x="260" y="0"/>
+</item>
+<item historyLabel="PeruBankException.java" index="10">
+<position info="not_deleted" x="35" y="17"/>
+</item>
+<item historyLabel="AdmRepresentanteTest.java" index="7">
+<position info="not_deleted" x="2225" y="0"/>
+</item>
+<item historyLabel="Dashboard" index="9"/>
+<item historyLabel="AdmRepresentanteTest.java" index="7">
+<position info="not_deleted" x="2225" y="0"/>
+</item>
+<item active="true" historyLabel="Dashboard" index="12"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -588,20 +633,23 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
+<persistable openDashboard="true"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmRepresentante.java" tooltip="AppPeruBank/src/bastanteo/AdmRepresentante.java">
+<persistable path="/AppPeruBank/src/bastanteo/AdmRepresentante.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PeruBankException.java" tooltip="AppPeruBank/src/bastanteo/PeruBankException.java">
+<persistable path="/AppPeruBank/src/bastanteo/PeruBankException.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmPoderesTest.java" tooltip="AppPeruBank/test/bastanteo/AdmPoderesTest.java">
 <persistable path="/AppPeruBank/test/bastanteo/AdmPoderesTest.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClienteTest.java" tooltip="AppPeruBank/test/bastanteo/ClienteTest.java">
 <persistable path="/AppPeruBank/test/bastanteo/ClienteTest.java"/>
 </file>
-<file factoryID="com.springsource.sts.ide.ui.dashboard.elementFactory" id="com.springsource.sts.internal.ide.ui.editors.MultiPageDashboardEditor" name="Dashboard" tooltip="Dashboard">
-<persistable openDashboard="true"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmPoderes.java" tooltip="AppPeruBank/src/bastanteo/AdmPoderes.java">
 <persistable path="/AppPeruBank/src/bastanteo/AdmPoderes.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmRepresentante.java" tooltip="AppPeruBank/src/bastanteo/AdmRepresentante.java">
-<persistable path="/AppPeruBank/src/bastanteo/AdmRepresentante.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="AdmRepresentanteTest.java" tooltip="AppPeruBank/test/bastanteo/AdmRepresentanteTest.java">
 <persistable path="/AppPeruBank/test/bastanteo/AdmRepresentanteTest.java"/>

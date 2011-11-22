@@ -6,6 +6,27 @@
  <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
  <language>en</language>
 <item>
+ <title>Video: Introduction to Spring Data Neo4j</title>
+ <link>http://www.springsource.org/node/3311</link>
+ <description>&lt;p&gt;
+The &lt;a href=&quot;http://www.springsource.org/spring-data/neo4j&quot;&gt;Spring Data Neo4j&lt;/a&gt; project has evolved to support the Neo4j graph data store within the Spring paradigm. With version 2.0 already at release candidate stage, now is a great time to learn how to extend your application&#039;s persistence model to start using graphs instead of traditional relational stores. Neo4j expert, Michael Hunger, provides a guided tour of the technology and provides details on how to get started in this &lt;a href=&quot;http://www.youtube.com/watch?v=hM4qT0zQmfQ&quot;&gt;Introduction to Spring Data Neo4j&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p style=&quot;text-align: center&quot;&gt;&lt;object width=&quot;560&quot; height=&quot;349&quot;&gt;
+&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/hM4qT0zQmfQ?version=3&amp;amp;hl=en_US&quot; /&gt;
+&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;
+&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/hM4qT0zQmfQ?version=3&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;560&quot; height=&quot;349&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+
+&lt;p&gt;Be sure to thumbs up the presentation if you find it useful and &lt;a href=&quot;http://www.youtube.com/subscription_center?adduser=SpringSourceDev&quot;&gt;subscribe to the SpringSourceDev channel&lt;/a&gt; to receive updates about all the latest presentation recordings and screencasts.&lt;/p&gt;
+
+</description>
+ <comments>http://www.springsource.org/node/3311#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 21 Nov 2011 22:25:50 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3311 at http://www.springsource.org</guid>
+</item>
+<item>
  <title>Win an Apple iPad 2. Take the Survey!</title>
  <link>http://www.springsource.org/node/3306</link>
  <description>&lt;p&gt;Help make Cloud Foundry even better by giving your valuable feedback in our Cloud Foundry Developer Survey. If you&#039;re one of the first 500 persons to complete this survey, you will be entered into a drawing to win an Apple iPad 2. By spending just five minutes, you may get even more than just favorable open source karma.&lt;/p&gt;
@@ -421,23 +442,6 @@ http://dist.springsource.com/milestone/TOOLS/cloud/e3.6/&lt;/p&gt;
  <pubDate>Tue, 25 Oct 2011 13:24:06 +0000</pubDate>
  <dc:creator>Martin Lippert</dc:creator>
  <guid isPermaLink="false">3296 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Spring Data MongoDB 1.0.0.M5 Released </title>
- <link>http://www.springsource.org/node/3295</link>
- <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am pleased to announce that the Spring Data MongoDB 1.0 Milestone 5 release is now available!&lt;/p&gt;
-&lt;p&gt;The primary goal of the &lt;b&gt;Spring Data&lt;/B&gt; project is to make it easier to build Spring-powered applications that use new data access technologies such as non-relational databases, map-reduce frameworks, and cloud based data services.&lt;/p&gt;
-&lt;p&gt;The MongoDB module provides integration with the &lt;a href=&quot;http://www.mongodb.org&quot;&gt;MongoDB&lt;/a&gt; document database. &lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.springsource.com/download/community?project=Spring%20Data%20Mongo&amp;amp;version=1.0.0.M5&quot;&gt;Downloads&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-mongo/docs/1.0.0.M5/api/&quot;&gt;JavaDocs&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-mongo/docs/1.0.0.M5/reference/html/&quot;&gt;Reference Documentation&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring-data/data-mongo/docs/1.0.0.M5/changelog.txt&quot;&gt;Changelog&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;To learn more about the project, visit the Spring Data &lt;a href=&quot;http://www.springsource.org/spring-data/mongodb&quot;&gt;MongoDB Page&lt;/a&gt;. &lt;/p&gt;
-&lt;p&gt;There are a number of bug fixes and minor changes to the way certain features work. See the &lt;a href=&quot;http://static.springsource.org/spring-data/data-mongo/docs/1.0.0.M5/changelog.txt&quot;&gt;changelog&lt;/a&gt; for more details.&lt;/p&gt;
-&lt;p&gt;Looking forward to your feedback on the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=80&quot;&gt;forum&lt;/a&gt; or in the &lt;a href=&quot;https://jira.springsource.org/browse/DATAMONGO&quot;&gt;issue tracker&lt;/a&gt;.&lt;/p&gt;
-</description>
- <comments>http://www.springsource.org/node/3295#comments</comments>
- <pubDate>Mon, 24 Oct 2011 23:19:31 +0000</pubDate>
- <dc:creator>Thomas Risberg</dc:creator>
- <guid isPermaLink="false">3295 at http://www.springsource.org</guid>
 </item>
 </channel>
 </rss>
