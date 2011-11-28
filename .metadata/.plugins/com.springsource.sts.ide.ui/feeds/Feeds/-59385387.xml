@@ -6,25 +6,161 @@
  <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
  <language>en</language>
 <item>
- <title>Video: Introduction to Spring Data Neo4j</title>
+ <title>SpringSource Tool Suite 2.8.1 released</title>
+ <link>http://www.springsource.org/node/3316</link>
+ <description>&lt;p&gt;The SpringSource Tool Suite team is pleased to announce the new release 2.8.1 of the SpringSource Tool Suite (STS).&lt;/p&gt;
+&lt;p&gt;STS 2.8.1 is now compatible with the new Maven Integration as well as the old one. So updating your existing STS 2.7 or 2.8 version to STS 2.8.1 doesn&#039;t force you to also update the Maven Integration. Instead you can switch to the new Maven integration whenever you want - and even switch back to the old integration, if the new one doesn&#039;t work out for you. We automate this up- and downgrading of the Maven Integration as much as possible with two new items on the Dashboard. Please find more details in the &lt;a href=&quot;http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy.pdf&quot;&gt;New &amp;amp; Noteworthy&lt;/a&gt; and the &lt;a href=&quot;http://forum.springsource.org/showthread.php?116189-STS-2.8.0-and-m2e-FAQ-(updated-for-STS-2.8.1)&quot;&gt;updated m2e FAQ forum post.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The ready-to-use packages contain the new m2e 1.0 version, but you can easily switch them back to m2eclipse 0.12 using the Dashboard items, if you like.&lt;/p&gt;
+&lt;p&gt;Detailed&amp;nbsp;&lt;a href=&quot;http://download.springsource.com/release/STS/doc/STS-installation_instructions.pdf&quot;&gt;installation instructions&lt;/a&gt;&amp;nbsp;are also available. As always downloads are available from the&amp;nbsp;&lt;a href=&quot;http://www.springsource.com/landing/best-development-tool-enterprise-java&quot;&gt;STS download page&lt;/a&gt;.&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3316#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Thu, 24 Nov 2011 11:18:43 +0000</pubDate>
+ <dc:creator>Martin Lippert</dc:creator>
+ <guid isPermaLink="false">3316 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Spring Integration 2.1 Release Candidate 1 is now available</title>
+ <link>http://www.springsource.org/node/3315</link>
+ <description>&lt;p&gt;We are pleased to announce that Spring Integration 2.1 Release Candidate 1 is now available.&lt;br /&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10121&amp;amp;version=12341&quot;&gt;Release Notes&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring-integration/docs/2.1.0.RC1/reference/htmlsingle/&quot;&gt;Documentation&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Integration&quot;&gt;Download&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you would like to grab the artifacts via Maven, please use the following repository and dependency configuration (and replace &#039;core&#039; with any other modules you want to use, e.g. &#039;amqp&#039;, &#039;gemfire&#039;, &#039;http&#039;):&lt;/p&gt;
+&lt;p&gt;&amp;lt;repository&amp;gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;lt;id&amp;gt;repository.springframework.maven.milestone&amp;lt;/id&amp;gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;lt;name&amp;gt;Spring Framework Maven Milestone Repository&amp;lt;/name&amp;gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;lt;url&amp;gt;http://maven.springframework.org/milestone&amp;lt;/url&amp;gt;&lt;br /&gt;
+&amp;lt;/repository&amp;gt;&lt;/p&gt;
+&lt;p&gt;&amp;lt;dependency&amp;gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;lt;groupId&amp;gt;org.springframework.integration&amp;lt;/groupId&amp;gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;lt;artifactId&amp;gt;spring-integration-core&amp;lt;/artifactId&amp;gt;&lt;br /&gt;
+&amp;nbsp; &amp;nbsp; &amp;lt;version&amp;gt;2.1.0.RC1&amp;lt;/version&amp;gt;&lt;br /&gt;
+&amp;lt;/dependency&amp;gt;&lt;/p&gt;
+&lt;p&gt;Feel free to join us on the &lt;a target=&quot;_blank&quot; href=&quot;http://forum.springsource.org/forumdisplay.php?42-Integration&quot;&gt;Forum&lt;/a&gt;. We especially welcome feedback from the community at this important phase as we make the final strides toward 2.1 GA.&lt;/p&gt;
+&lt;p&gt;Cheers!&lt;br /&gt;
+The Spring Integration Team&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3315#comments</comments>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Wed, 23 Nov 2011 23:27:06 +0000</pubDate>
+ <dc:creator>Mark Fisher</dc:creator>
+ <guid isPermaLink="false">3315 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>This Week in Spring, November 22nd, 2011</title>
  <link>http://www.springsource.org/node/3311</link>
- <description>&lt;p&gt;
-The &lt;a href=&quot;http://www.springsource.org/spring-data/neo4j&quot;&gt;Spring Data Neo4j&lt;/a&gt; project has evolved to support the Neo4j graph data store within the Spring paradigm. With version 2.0 already at release candidate stage, now is a great time to learn how to extend your application&#039;s persistence model to start using graphs instead of traditional relational stores. Neo4j expert, Michael Hunger, provides a guided tour of the technology and provides details on how to get started in this &lt;a href=&quot;http://www.youtube.com/watch?v=hM4qT0zQmfQ&quot;&gt;Introduction to Spring Data Neo4j&lt;/a&gt;.
-&lt;/p&gt;
+ <description> 
+  
 
-&lt;p style=&quot;text-align: center&quot;&gt;&lt;object width=&quot;560&quot; height=&quot;349&quot;&gt;
-&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/hM4qT0zQmfQ?version=3&amp;amp;hl=en_US&quot; /&gt;
-&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;
-&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/hM4qT0zQmfQ?version=3&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;560&quot; height=&quot;349&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;P&gt;
 
-&lt;p&gt;Be sure to thumbs up the presentation if you find it useful and &lt;a href=&quot;http://www.youtube.com/subscription_center?adduser=SpringSourceDev&quot;&gt;subscribe to the SpringSourceDev channel&lt;/a&gt; to receive updates about all the latest presentation recordings and screencasts.&lt;/p&gt;
+Welcome back to another installment of &lt;EM&gt;This Week in Spring&lt;/EM&gt;. For those of us in the US, the Thanksgiving holiday is upon us.
+	  
+Generally, the idea behind Thanksgiving (which has analogs in many other countries, as well) is to have a day to reflect on the things we are thankful for. 
 
+In that spirit, let me offer one of the things that I am thankful for: thank you, dear readers, for being part of the most awesome
+community out there.  		
+Between all the cool stuff you guys are doing and all the cool stuff happening at SpringSource, 
+it is an absolute pleasure to put together this roundup every week.  We hope you have a wonderful week and we look forward to seeing you next week. 
+      
+&lt;/p&gt; 	
+	&lt;OL&gt;
+		
+		&lt;LI&gt;
+			 The video from the &lt;a href= &quot;http://www.springsource.org/node/3311&quot;&gt;Spring Data Neo4J screencast is up&lt;/a&gt;
+			  and available for those of you who missed it.   In addition to this, there is a &lt;em&gt;lot&lt;/EM&gt; of great &lt;a href=&quot;http://www.youtube.com/SpringSourceDev&quot;&gt;recorded content on the SpringSource YouTube page&lt;/a&gt;.
+			&lt;/LI&gt;
+			&lt;li&gt;
+					Eugen Paraschiv has continued his epic run of blog posts, this time introducing  
+
+					&lt;a href = &quot;http://www.baeldung.com/2011/11/20/basic-and-digest-authentication-for-a-restful-service-with-spring-security-3-1/&quot;&gt;basic and digest authentication for a RESTful Service with Spring Security 3.1&lt;/a&gt;. What an amazing series of blogs! Keep it up Eugen, and thanks for this latest post!
+					&lt;/li&gt;	&lt;li&gt; &lt;a href =&quot;http://www.wired.com/wiredenterprise/2011/11/cloud-foundry/all/1&quot;&gt;WIRED has a great article on  the backstory behind  Cloud Foundry&lt;/a&gt;. 
+			 Not a lot of technical information in this particular post, but you do get introduced to some of the awesome &lt;A href= &quot;http://www.cloudfoundry.com&quot;&gt;Cloud Foundry&lt;/a&gt; team, and there&#039;s an awesome story there. Check it out!
+			 &lt;/li&gt;
+				&lt;LI&gt; Geraint Jones has written up a really &lt;a href= &quot;http://city81.blogspot.com/2011/11/spring-mvc-bare-essentials-example.html&quot;&gt;good introduction to setting up a Spring MVC application&lt;/a&gt;, complete with code.  
+					  &lt;/LI&gt;
+		&lt;LI&gt; Jorge Hidalgo has written up a &lt;em&gt;really&lt;/em&gt;  &lt;a href = &quot;http://deors.wordpress.com/2011/11/04/vmware-cloud-foundry/&quot;&gt;exhaustive tour of how to use Cloud Foundry and Spring&lt;/a&gt;.  It shows  how to use a SpringSource Tool Suite and the   Cloud Foundry support, 
+						 set up a Spring application, and set up data access using MySQL. 				
+			  &lt;/LI&gt;
+	 
+		&lt;LI&gt; 
+			
+			Do you like the Spring Expression language? Want to use it in a scripting language? 
+			 Alex Soto has a blog discussing &lt;a href= &quot;http://alexsotob.blogspot.com/2011/11/what-wicked-game-you-play-to-make-me.html&quot;&gt;how to use the Spring Expression language as a JSR 233 scripting engine&lt;/a&gt;.   The Spring Expression language is one of my favorite parts of the Spring framework. 
+			If you look, the large majority 	
+			of the code in that expression language was written by a &lt;a href=&quot;http://twitter.com/andy_clement&quot;&gt;Andy Clement&lt;/a&gt;, another one of the mad scientists 
+			helping make the Spring projects amazing. 
+  		 The implementation  of the 
+
+			&lt;a href =&quot;http://static.springsource.org/spring/docs/3.1.x/spring-framework-reference/html/expressions.html&quot;&gt;Spring Expression language&lt;/a&gt;, 
+			just like the rest of the framework, is  
+			
+			&lt;a href= &quot;https://src.springframework.org/svn/spring-framework/trunk/org.springframework.expression/&quot;&gt;beautiful code&lt;/a&gt;, and offers a lot  to learn about if you like grammar and parser design.			
+			  &lt;/LI&gt;
+			
+ 
+		&lt;LI&gt;  &lt;a href = &quot;http://www.tomcatexpert.com&quot;&gt;TomcatExpert.com&lt;/a&gt; has some very interesting  
+			 posts on tuning  
+			
+Tomcat&#039;s performance. The first post is &lt;a href = &quot;http://www.tomcatexpert.com/blog/2011/11/16/setting-measurement-garbage-collection-apache-tomcat&quot;&gt;on setting up measurement of garbage collection in Apache Tomcat&lt;/a&gt;.
+   The second post, which went up today, is &lt;a href = &quot;http://www.tomcatexpert.com/blog/2011/11/22/performance-tuning-jvm-running-tomcat&quot;&gt;about performance tuning in the JVM&lt;/a&gt;.    
+
+			&lt;/LI&gt; 
+		 &lt;LI&gt; 
+			Do you like &lt;a href= &quot;http://www.cloudfoundry.org&quot;&gt;Cloud Foundry&lt;/a&gt;? 
+        Please consider voting  for Cloud Foundry 
+		at this year&#039;s &lt;a href= &quot;http://crunchies2011.techcrunch.com/nominate/?OTpDbG91ZEZvdW5kcnk=&quot;&gt;Crunchies&lt;/a&gt;. Voting&#039;s &lt;EM&gt;really&lt;/EM&gt; easy, so don&#039;t delay!
+			&lt;/li&gt;
+		&lt;LI&gt;  I saw some 
+			
+			 &lt;a href= &quot;http://twitter.com/#!/vFabric/status/138665870422589440&quot;&gt;wonderful news&lt;/a&gt; on the
+			   &lt;a href=&quot;http://www.twitter.com/vfabric&quot;&gt;@vFabric&lt;/a&gt; account while trolling Twitter today: the 
+			&lt;a href= &quot;https://github.com/SpringSource/spring-migration-analyzer&quot;&gt;Spring Migration Analyzer&#039;s been open sourced and made available&lt;/a&gt;! 
+			The Spring Migration Analyzer  is a tool that analyzes Java EE applications for possible routes to a leaner, cleaner Spring based application. 
+				 It produces a report when  run  on a &lt;code&gt;.war&lt;/code&gt; file.
+				 For more information on how to run the tool,  see the &lt;a href=&quot;https://github.com/SpringSource/spring-migration-analyzer/blob/master/README.md&quot;&gt;&lt;CODE&gt;README&lt;/CODE&gt;&lt;/a&gt;.
+				
+ 			  &lt;/LI&gt;	
+			
+ 	
+	
+		
+	&lt;/ol&gt;
 </description>
  <comments>http://www.springsource.org/node/3311#comments</comments>
  <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Mon, 21 Nov 2011 22:25:50 +0000</pubDate>
- <dc:creator>Adam Fitzgerald</dc:creator>
+ <pubDate>Wed, 23 Nov 2011 01:40:23 +0000</pubDate>
+ <dc:creator>Josh Long</dc:creator>
  <guid isPermaLink="false">3311 at http://www.springsource.org</guid>
+</item>
+<item>
+ <title>Video: Interview with Costin Leau from JavaOne 2011</title>
+ <link>http://www.springsource.org/node/3309</link>
+ <description>&lt;p&gt; 
+&lt;div style=&quot;float: right; width:320px; padding: 10px&quot;&gt;
+&lt;a href=&quot;http://www.infoq.com/interviews/costin-leau-javaone-2011-interview&quot;&gt;&lt;img height=&quot;240&quot; alt=&quot;Video Interview with Costin Leau at JavaOne 2011&quot; width=&quot;320&quot; border=&quot;0&quot; src=&quot;http://www.springsource.org/files/CostinLeauInterviewAtJavaOne.png&quot; /&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+In this new video interview from &lt;a href=&quot;http://www.infoq.com&quot;&gt;InfoQ&lt;/a&gt;, Spring expert, &lt;a href=&quot;http://blog.springsource.org/author/costinl/&quot;&gt;Costin Leau&lt;/a&gt; talks about &lt;a href=&quot;http://www.springsource.org/spring-data&quot;&gt;Spring Data&lt;/a&gt;, caching, data grid architectures and work on a new Spring Hadoop project. This interview, filmed last month at JavaOne 2011,  provides some great background to how the Spring team has been thinking about data and how the emerging new models of data access can be incorporated seamlessly into your Spring applications. 
+&lt;/p&gt;
+
+&lt;p&gt;Costin talks about :
+&lt;ul&gt;
+ &lt;li&gt;Spring Data as an umbrella project&lt;/li&gt;
+ &lt;li&gt;Transaction capabilities in the world of noSQL&lt;/li&gt;
+ &lt;li&gt;Flexible caching integration in Spring&lt;/li&gt;
+ &lt;li&gt;The current development work on Spring Hadoop&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Many thanks to InfoQ for taking the time to talk to the Spring experts and providing this outstanding interview to the community.
+&lt;/p&gt;
+
+</description>
+ <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
+ <pubDate>Mon, 21 Nov 2011 17:39:55 +0000</pubDate>
+ <dc:creator>Adam Fitzgerald</dc:creator>
+ <guid isPermaLink="false">3309 at http://www.springsource.org</guid>
 </item>
 <item>
  <title>Win an Apple iPad 2. Take the Survey!</title>
@@ -267,181 +403,6 @@ exended the previous Milestone release with new functionality and took care of r
  <pubDate>Wed, 09 Nov 2011 01:23:21 +0000</pubDate>
  <dc:creator>Adam Fitzgerald</dc:creator>
  <guid isPermaLink="false">3300 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>This Week in Spring: November 1st, 2011</title>
- <link>http://www.springsource.org/node/3299</link>
- <description> &lt;P&gt;    Wow! Last week&#039;s &lt;a href= &quot;http://www.springone2gx.com&quot;&gt;SpringOne 2GX&lt;/a&gt; event was sensational. It was an amazing time, and it was - as usual - great to see the Spring community going so strong.  I can&#039;t wait until the videos from the event start to appear on &lt;a href= &quot;http://www.infoq.com&quot;&gt;InfoQ.com&lt;/a&gt;. 
-	
-	We&#039;ve got a lot to cover this week, though, so let&#039;s get into it!
-	 &lt;/P&gt; 
-  &lt;OL&gt; 
-	
-	&lt;Li&gt; 
- Don&#039;t tell anyone, but even if you missed SpringOne 2GX, the decks for all the talks should be on
-          &lt;a hREF =&quot;http://www.springone2gx.com&quot;&gt;SpringOne2GX.com&lt;/a&gt;, and the videos for all the talks will be on InfoQ.com soon. 
-
-To tide you over in the short term, the deck from 
- 	 SpringSource CTO Adrian Colyer&#039;s  keynote - &quot;&lt;a href= &quot;http://portal.sliderocket.com/vmware/SpringOne2GX-2011-Opening-Keynote &quot;&gt;Spring yesterday, today, and tomorrow&lt;/a&gt;&quot;  -  is available online.   Thanks Adrian! 
-	&lt;/lI&gt;
-
-	 &lt;LI&gt;
-	 One of the many big announcements that came from the SpringOne2GX event was	 that of &lt;a href= &quot;http://neo4j.org/spring/&quot;&gt;Neo4j 2.0&lt;/a&gt;. 
-	        If you&#039;re curious to learn more about how Spring (through the &lt;A HREF= &quot;http://www.springsource.org/spring-data/neo4j&quot;&gt;Spring Data Neo4j project&lt;/A&gt;) can work with Neo4J, check out &lt;a href= &quot;http://neo4j.org/spring/&quot;&gt;this page&lt;/a&gt;.
-	
-	 &lt;/LI&gt;
-
-&lt;LI&gt;     Eugene also wrote a  &lt;EM&gt;three part(!!)&lt;/EM&gt; series  on   
-	building a RESTful web service with Spring 3.1 and Java configuration! Here&#039;s &lt;A href= &quot;http://www.baeldung.com/2011/10/20/bootstraping-a-web-application-with-spring-3-1-and-java-based-configuration-part-1/&quot;&gt;part 1, on bootstrapping a web application with  Java configuration&lt;/a&gt;, and &lt;a href= &quot;http://www.baeldung.com/2011/10/25/building-a-restful-web-service-with-spring-3-1-and-java-based-configuration-part-2/&quot;&gt;part 2, on building a RESTful web service with Spring&lt;/a&gt; and &lt;a href = &quot;http://www.baeldung.com/2011/10/31/securing-a-restful-web-service-with-spring-security-3-1-part-3/&quot;&gt;part 3, on securing the web application&lt;/a&gt;. Great job, Eugene!
- &lt;/LI&gt; 
-&lt;Li&gt;
-
-	  At &lt;a href= &quot;http://www.springone2gx.com&quot;&gt;SpringOne 2GX&lt;/A&gt; just last week, &lt;EM&gt;two&lt;/EM&gt; different people approached me about their use cases for multi-tenancy with Spring and Hibernate. 
-	 Ken DeLong, who I met last week, has written a &lt;a href= &quot;http://www.jroller.com/kenwdelong/entry/multi_tenancy_using_spring_and&quot;&gt;blog post on the strategy he took&lt;/A&gt; and was kind enough to share with us. Nice job, Ken, and thanks! 
-
-
-&lt;/LI&gt;
-&lt;LI&gt; At the JAX London Spring track today, Eberhard Wolff gave an interesting &lt;a href = &quot;http://www.slideshare.net/ewolff/scala-and-spring&quot;&gt;talk on using Spring with Scala&lt;/A&gt;, and posted the slides. Good stuff and a welcome entry in the ever growing number of use cases for Spring  and Scala.
-&lt;/LI&gt; 
- &lt;LI&gt; Johnny Ren has posted a high level overview  (no code-level specifics) of the steps to securing a web application using Spring Security over on the JBoss blogs, in 	
-&lt;a href= &quot;http://community.jboss.org/people/johnnyren/blog/2011/10/30/understanding-spring-security-and-role-based-access-control&quot;&gt; 
-
-Understanding Spring Security and Role Based Access Control&lt;/a&gt;. I think this is useful because it points out some of what&#039;s possible with Spring and Spring Security, and you&#039;re free from there to pursue the specifics after. Good stuff!
-	&lt;/LI&gt; 
-	
-
- &lt;LI&gt;
-	 Time after time the Spring source code base has been audited by independant third parties. They review aspects of the code like 
-	 code coverage,  warnings, etc, and - as often as not - they review how clean the source code itself is. It is, of course, among the cleanest and most reliable code bases in open source. This latest analysis checks the code base for its adherance to GRASP patterns. (I&#039;ll spoil the results for you - of course it comes out roses! That doesn&#039;t make the analysis any less interesting.) 
-	&lt;a href= &quot;http://javadepend.wordpress.com/2011/10/26/spring-the-art-of-using-grasp-patterns/&quot;&gt;
-	Check it out!&lt;/a&gt;&lt;br /&gt;
-	  By the by, for those curious about how the code&#039;s stayed so clean and well designed, check out Spring project lead&#039;s interview on the &lt;A HREF=&quot;http://www.se-radio.net/2008/01/episode-82-organization-of-large-code-bases-with-juergen-hoeller&quot;&gt;Software Engineering podcast a few years ago&lt;/a&gt;, in which he details his approach to keeping code organized and to evolving it.
-	
-		 &lt;/li&gt;
-	&lt;LI&gt;
-		There are lots of goodies in Spring 3.1, but one that has received a lot of attention is the updated testing support. Testing&#039;s an important part to
-		enterprise software development, and Spring&#039;s always made this important task as easy as possible.  Check out the Java Code  Geek&#039;s blog on &lt;a href= &quot;http://www.javacodegeeks.com/2011/10/spring-3-testing-with-junit-4.html&quot;&gt;Spring 3 Testing with JUnit 4  with &lt;CODE&gt;ContextConfiguration&lt;/CODE&gt; and &lt;CODE&gt;AbstractTransactionalJUnit4SpringContextTests&lt;/CODE&gt;&lt;/A&gt;.
-		 	
- &lt;/li&gt; 
-
- &lt;LI&gt; Want to install Tomcat 7 and Solr on Centos 5.5? Look no further than &lt;a href= &quot;http://java.dzone.com/articles/how-install-tomcat-7-and-solr&quot;&gt;this writeup&lt;/a&gt;. 
- &lt;/li&gt; 
-
-
-	 &lt;LI&gt; Cobalto Labs has just announced the first release of their first version  of the 
-		   Scala Primavera project, which aims to bring the &lt;a href= &quot;http://www.cobaltolabs.com/index.php/blog/scalaprimavera-ver-0.1/&quot;&gt;Scala language&#039;s expressiveness to Spring&lt;/A&gt;. 
-		  Check it out, fellow Spring-loving Scala-heads!
- &lt;/li&gt; 
- 
- &lt;LI&gt; This blog post introduces how 
-  &lt;a href = &quot;http://goldstifts.blogspot.com/2011/10/springroo-howto-translate-java.html&quot;&gt;how to translate exceptions using Spring Roo&lt;/a&gt;. It&#039;s a great post, and - more to the point - it looks like there will be even more coming! I&#039;ll be happy to see even more. Nice job,  Goldstift!
-  		 &lt;/LI&gt;
-		
-		 &lt;/oL&gt;</description>
- <comments>http://www.springsource.org/node/3299#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Wed, 02 Nov 2011 00:46:21 +0000</pubDate>
- <dc:creator>Adam Fitzgerald</dc:creator>
- <guid isPermaLink="false">3299 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>This Week in Spring, October 25th 2011</title>
- <link>http://www.springsource.org/node/3297</link>
- <description>&lt;p&gt;&lt;img src = &quot;/files/u41069/S12GX2011_keynote.png&quot; width = &quot;600&quot; height=&quot;200&quot;/&gt;&lt;/p&gt;
-&lt;p&gt;We are live from &lt;a href=&quot;http://www.springone2gx.com&quot; target=&quot;_blank&quot;&gt;SpringOne&lt;/a&gt;! &amp;#39;Nuff said! If you&amp;#39;re here, enjoy! 
-	If you&amp;#39;re not, you&amp;#39;re missing out! Take heart, though, you still have 
-	this roundup to look forward to and many of the sessions will be recorded by InfoQ.  
-	So, with that, let&amp;#39;s get to it! Look forward to seeing you  next week! 	
-	 &lt;/p&gt; 
-&lt;OL&gt; 
-	&lt;LI&gt; Michael Hunger announced that    
-		 
-		&lt;a href=&quot;http://www.springsource.org/node/3294&quot; target=&quot;_blank&quot;&gt;Spring Data Neo4J 2.0.0.M1 Has Been Releeased&lt;/a&gt;! 
-		 The new release has several new features, and has been divided into smaller submodules. 
-		
-		  &lt;ul&gt;&lt;LI&gt;
-
-		&lt;code&gt;spring-data-neo4j&lt;/CODE&gt;: &lt;CODE&gt;Neo4jTemplate&lt;/CODE&gt; for easy, copying object-graph-mapping, and Spring Data Repositories using persistence entity meta information&lt;/LI&gt;
-			&lt;LI&gt;
-	    &lt;CODE&gt;spring-data-neo4j-aspects&lt;/CODE&gt;: transparent object-graph-mapping using AspectJ
-	&lt;/LI&gt;
-	    &lt;LI&gt;
-		&lt;CODE&gt;spring-data-neo4j-cross-store&lt;/CODE&gt;: AspectJ based cross-store-persistence between JPA and Neo4j
-		&lt;/LI&gt;
-
-	    &lt;LI&gt; &lt;CODE&gt;spring-data-neo4j-rest&lt;/CODE&gt;: transparent access of a remote Neo4j REST-Server&lt;/LI&gt;
-	   &lt;/ul&gt;
-	&lt;/li&gt;
-		&lt;lI&gt; Costin Leau 
-			has announced that 
-			 &lt;a href=&quot;http://www.springsource.org/node/3289&quot; target=&quot;_blank&quot;&gt;Spring Data Redis 1.0.0.RC1&lt;/a&gt; has been released. 
-			
-			The new release  upgrades to Spring 3.1 RC1,  improves JDK 5 compatibility, and  
-			 improves  Spring 3.1 cache abstraction on top of Redis
-		    
-			
-			&lt;/LI&gt;
-
-			&lt;li&gt; 
-				Thomas Risberg has announced that &lt;a href=&quot;http://www.springsource.org/node/3295&quot; target=&quot;_blank&quot;&gt;Spring Data MongoDB 1.0.0.M5 Has Been  Released&lt;/a&gt;. Spring Data MongoDB provides  a convenient 
-				integration with Spring and the MongoDB, 
-				including support for polyglot persistence, a &lt;CODE&gt;MongoTemplate&lt;/CODE&gt;,  and much more. 				 
-			&lt;/LI&gt;
-&lt;LI&gt;
-	Filip Hanik has started a series of blogs on &lt;A href=&quot;http://www.tomcatexpert.com/blog/2011/ 10/19/understanding-apache-tomcat-getting-started&quot; target=&quot;_blank&quot;&gt;getting started with Apache Tomcat.&lt;/a&gt;
-&lt;/LI&gt;
-&lt;LI&gt;  Gordon Dickens chimes in with another epic post, this one on &lt;a href=&quot;http://gordondickens.com/wordpress/2011/10/22/unit-testing-spring-with-mockito-powermock/&quot; target=&quot;_blank&quot;&gt;unit testing with Spring and Mockito and PowerMock&lt;/a&gt;. &lt;EM&gt;Nice&lt;/EM&gt; job, Gordon!  
-	&lt;/li&gt; 
-	&lt;LI&gt; 
-		Using jQuery? Using Spring MVC (&lt;em&gt;Naturally!&lt;/eM&gt;)? Want to build on a jQuery UI that does auto complete? Check out 
- &lt;a href=&quot;http://blog.m1key.me/2011/10/jquery-ui-autocomplete-spring-mvc.html&quot; target=&quot;_blank&quot;&gt;Michal Huniewicz&amp;#39;s post introducing the topic&lt;/a&gt;!
-		&lt;/LI&gt; 
-		&lt;lI&gt;
-
-			
-			Ashish Sarin (author of the &lt;EM&gt;Spring Roo Cookbook&lt;/EM&gt;)  has &lt;a href=&quot;http://spring-roo.blogspot.com/2011/10/spring-roo-presentation.html&quot; target=&quot;_blank&quot;&gt;put up his  presentation&lt;/a&gt; given at the Hyderabad Silicon India conference. The presentation focuses on Spring Roo and is a good introduction for the unitiated. 
-			 &lt;/LI&gt;
- 
-
-			&lt;LI&gt;  
-			 Continuing the common thread of unit testing with Spring this week, Alex Soto chimes in  
-			 with a post on &lt;A href=&quot;http://alexsotob.blogspot.com/2011/10/soy-el-rey-de-la-mar-tiburon-que-te.html&quot; target=&quot;_blank&quot;&gt;Mockito and the StaticApplicationContext to improve mocking &lt;/a&gt;
-				&lt;/li&gt;
-			
-				&lt;lI&gt; 
-					
-					John Dobie talks about &lt;a href=&quot;http://java.dzone.com/articles/maven-integration-testing-and&quot; target=&quot;_blank&quot;&gt;testing RESTful web services with  Maven&lt;/a&gt;.
-					  
-					
-					&lt;/LI&gt;	&lt;LI&gt; Ken Rimple is at it again, this time with a quick post on  how to get the latest bits of  &lt;a href=&quot;http://java.dzone.com/articles/living-edge-roo-working-trunk&quot; target=&quot;_blank&quot;&gt;Spring Roo to support addon development&lt;/a&gt;. 					
-							&lt;/li&gt;
-
-&lt;/OL&gt;</description>
- <comments>http://www.springsource.org/node/3297#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Wed, 26 Oct 2011 04:51:57 +0000</pubDate>
- <dc:creator>Josh Long</dc:creator>
- <guid isPermaLink="false">3297 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>STS Cloud Foundry Integration M5 Released</title>
- <link>http://www.springsource.org/node/3296</link>
- <description>&lt;p&gt;Dear Spring Community,&lt;/p&gt;
-&lt;p&gt;I am happy to announce the new milestone release M5 of the Cloud Foundry Integration for the SpringSource Tool Suite (STS).&lt;/p&gt;
-&lt;p&gt;This milestone release includes support for debugging applications in Cloud Foundry (for local clouds and the upcoming version of Micro Cloud Foundry).&lt;br /&gt;
-You can now start your apps in your local or micro cloud in debug mode and your Eclipse/STS debugger will automatically be connected to your app running inside of Cloud Foundry. You can set breakpoints, inspect variables, evaluate expressions, step through the app - everything you know from he good old Java debugger experience in Eclipse/STS.&lt;/p&gt;
-&lt;p&gt;In addition to that the milestone includes a number of fixes and improvements to existing features.&lt;/p&gt;
-&lt;p&gt;The extension is available from the Dashboard of STS or directly via this update site:&lt;br /&gt;
-http://dist.springsource.com/milestone/TOOLS/cloud/e3.6/&lt;/p&gt;
-&lt;p&gt;Its also available from the Eclipse Marketplace.&lt;/p&gt;
-&lt;p&gt;A blog post about debugging applications on CF will follow shortly. Please watch the &lt;a href=&quot;http://blog.cloudfoundry.com/&quot;&gt;Cloud Foundry Blog&lt;/a&gt; for updates.&lt;/p&gt;
-&lt;p&gt;Enjoy!&lt;/p&gt;
-</description>
- <comments>http://www.springsource.org/node/3296#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Tue, 25 Oct 2011 13:24:06 +0000</pubDate>
- <dc:creator>Martin Lippert</dc:creator>
- <guid isPermaLink="false">3296 at http://www.springsource.org</guid>
 </item>
 </channel>
 </rss>

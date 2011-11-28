@@ -6,12 +6,25 @@
 	
 	<link>http://blog.springsource.org</link>
 	<description>The voice of SpringSource</description>
-	<lastBuildDate>Thu, 17 Nov 2011 17:29:41 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 24 Nov 2011 22:41:37 +0000</lastBuildDate>
 	<language>en</language>
 	<sy:updatePeriod>hourly</sy:updatePeriod>
 	<sy:updateFrequency>1</sy:updateFrequency>
 	<generator>http://wordpress.org/?v=3.1.1</generator>
 		<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/SpringSourceTeamBlog" /><feedburner:info uri="springsourceteamblog" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><item>
+		<title>Spring Roo 1.2.0.RC1 released</title>
+		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/kUpRQCFX2fE/</link>
+		<comments>http://blog.springsource.org/2011/11/23/spring-roo-1-2-0-rc1-released/#comments</comments>
+		<pubDate>Thu, 24 Nov 2011 03:12:45 +0000</pubDate>
+		<dc:creator>Alan Stewart</dc:creator>
+				<category><![CDATA[Spring]]></category>
+
+		<guid isPermaLink="false">http://blog.springsource.org/?p=10300</guid>
+		<description>The Spring Roo team is delighted to announce the availability of 1.2.0 Release Candidate 1. The Roo 1.2.0.RC1 release follows on from M1 and includes two exciting new features: Multi-module Maven project support. This is the Roo community&amp;#039;s most popular and most voted for feature (ROO-120). You can now create projects with a parent POM  &lt;a href="http://blog.springsource.org/2011/11/23/spring-roo-1-2-0-rc1-released/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/kUpRQCFX2fE" height="1" width="1"/&gt;</description>
+		<wfw:commentRss>http://blog.springsource.org/2011/11/23/spring-roo-1-2-0-rc1-released/feed/</wfw:commentRss>
+		<slash:comments>5</slash:comments>
+		<feedburner:origLink>http://blog.springsource.org/2011/11/23/spring-roo-1-2-0-rc1-released/</feedburner:origLink></item>
+		<item>
 		<title>Using Cloud Foundry Services with Spring: Part 4 – Spring Profiles</title>
 		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/9aMuyJEWS50/</link>
 		<comments>http://blog.springsource.org/2011/11/10/using-cloud-foundry-services-with-spring-part-4-%e2%80%93-spring-profiles/#comments</comments>
@@ -87,9 +100,9 @@
 		<category><![CDATA[Tools]]></category>
 
 		<guid isPermaLink="false">http://blog.springsource.com/?p=10079</guid>
-		<description>Today, we released version 2.8.0 of the SpringSource Tool Suite. Along with an update to Eclipse Indigo SR1 (which brings you full IDE support for Java7), we also updated the Maven integration from the old and unmaintained m2eclipse versions 0.12.x to the latest version m2e 1.0 – which is now shipping as part of the  &lt;a href="http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/3oylr5Kf6U4" height="1" width="1"/&gt;</description>
+		<description>UPDATE, Nov 23: We have released STS 2.8.1, that fixes many of the install/uninstall of m2eclipse issues that people were having. Read the release announcement. Now, it is possible to upgrade/downgrade m2eclipse easily. STS 2.8.1 fully supports both versions of m2eclipse. Today, we released version 2.8.0 of the SpringSource Tool Suite. Along with an update  &lt;a href="http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/3oylr5Kf6U4" height="1" width="1"/&gt;</description>
 		<wfw:commentRss>http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/feed/</wfw:commentRss>
-		<slash:comments>80</slash:comments>
+		<slash:comments>81</slash:comments>
 		<feedburner:origLink>http://blog.springsource.org/2011/10/18/upgrading-maven-integration-for-springsource-tool-suite-2-8-0/</feedburner:origLink></item>
 		<item>
 		<title>Using Cloud Foundry Services with Spring: Part 1 – The Basics</title>
@@ -155,20 +168,7 @@
 		<guid isPermaLink="false">http://blog.springsource.com/?p=9778</guid>
 		<description>Java enterprise applications can take many shapes and forms. Depending on their requirements, developers need to decide which specific architectural layers their application needs. Up until now, Spring Roo has taken a pragmatic approach to reduce the often unnecessary complexity introduced by service facade, repository or DAO layers. The newly-released Spring Roo 1.2.0.M1 (see announcement)  &lt;a href="http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/9xY0776HF-g" height="1" width="1"/&gt;</description>
 		<wfw:commentRss>http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/feed/</wfw:commentRss>
-		<slash:comments>9</slash:comments>
-		<feedburner:origLink>http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/</feedburner:origLink></item>
-		<item>
-		<title>Spring Roo 1.2.0.M1 released</title>
-		<link>http://feedproxy.google.com/~r/SpringSourceTeamBlog/~3/s_JlbKn5FtY/</link>
-		<comments>http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/#comments</comments>
-		<pubDate>Wed, 14 Sep 2011 12:28:39 +0000</pubDate>
-		<dc:creator>Alan Stewart</dc:creator>
-				<category><![CDATA[Spring]]></category>
-
-		<guid isPermaLink="false">http://blog.springsource.com/?p=9779</guid>
-		<description>The Spring Roo team is delighted to announce the availability of our first 1.2.0 milestone. The Roo 1.2.0.M1 release continues the Roo vision of making it fast and easy to build Spring-based enterprise Java applications. We’ve listened to the community and included in this release some of the most highly-requested features: Ten times faster (!).  &lt;a href="http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/"&gt;&lt;em&gt;Read more...&lt;/em&gt;&lt;/a&gt;&lt;img src="http://feeds.feedburner.com/~r/SpringSourceTeamBlog/~4/s_JlbKn5FtY" height="1" width="1"/&gt;</description>
-		<wfw:commentRss>http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/feed/</wfw:commentRss>
 		<slash:comments>10</slash:comments>
-		<feedburner:origLink>http://blog.springsource.org/2011/09/14/spring-roo-1-2-0-m1-released/</feedburner:origLink></item>
+		<feedburner:origLink>http://blog.springsource.org/2011/09/14/new-application-layering-and-persistence-choices-in-spring-roo/</feedburner:origLink></item>
 	</channel>
 </rss>

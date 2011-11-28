@@ -8,8 +8,8 @@
 		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
 		<language>en-us</language>
 		<managingEditor>sts@springsource.com</managingEditor>
-		<pubDate>Tue, 18 Oct 2011 10:38:33 +0100</pubDate>
-		<lastBuildDate>Tue, 18 Oct 2011 10:38:33 +0100</lastBuildDate>
+		<pubDate>Wed, 23 Nov 2011 10:38:33 +0100</pubDate>
+		<lastBuildDate>Wed, 23 Nov 2011 10:38:33 +0100</lastBuildDate>
 		<atom:link href="http://dist.springsource.com.s3.amazonaws.com/release/STS/doc/updates.xml" rel="self" type="application/rss+xml"/>
 
 
@@ -41,42 +41,42 @@
 		</item>
 -->
 		<item>
-            <title>Thanks for installing STS 2.8.0</title>
+            <title>Thanks for installing STS 2.8.1</title>
             <link>http://www.springsource.com/products/sts</link>
             <description><![CDATA[<form><p><a href="http://springsource.com">SpringSource</a> has released an update to SpringSource Tool Suite (STS), the best Eclipse-powered development environment for building Spring, Groovy and Grails powered enterprise application.</p>
 		<p>Please review the following documents:</p>
 		<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy.pdf">New &amp; Noteworthy</a></li><p></p></form>]]></description>
-            <pubDate>Tue, 18 Oct 2011 12:13:33 +0100</pubDate>
-			<category>version=[2.8.0.201110171000-RELEASE,2.9.0)</category>
+            <pubDate>Wed, 23 Nov 2011 12:13:33 +0100</pubDate>
+			<category>version=[2.8.1.201111221000-RELEASE,2.9.0)</category>
 		<!--            <category>severity=important</category>-->
-	        <guid isPermaLink="false">thanks-for-installing-sts-280</guid>
+	        <guid isPermaLink="false">thanks-for-installing-sts-281</guid>
 		</item>
 		
 		<item>
-			<title>STS 2.8.0 has been released</title>
+			<title>STS 2.8.1 has been released</title>
 			<link>http://www.springsource.com/products/sts</link>
 			<description><![CDATA[<form><p><a href="http://springsource.com">SpringSource</a> has released an update to SpringSource Tool Suite (STS), the best Eclipse-powered development environment for building Spring, Groovy and Grails powered enterprise application.</p><p>It is recommend to update as soon as possible.</p>
 		<p>Please review the following documents:</p>
 		<li bindent="3"><a href="http://download.springsource.com/release/STS/doc/STS-new_and_noteworthy.pdf">New &amp; Noteworthy</a></li><p></p></form>]]></description>
-        	<pubDate>Tue, 18 Oct 2011 12:12:33 +0100</pubDate>
-			<category>version=[0,2.8.0.201110171000-RELEASE)</category>
+        	<pubDate>Wed, 23 Nov 2011 12:12:33 +0100</pubDate>
+			<category>version=[0,2.8.1.201111221000-RELEASE)</category>
 			<category>severity=important</category>
-			<guid isPermaLink="false">sts-280-released</guid>
+			<guid isPermaLink="false">sts-281-released</guid>
 		</item>
 
 		<item>
-			<title>Cloud Foundry support M4 available</title>
+			<title>Cloud Foundry support M5 available</title>
 			<link>http://www.cloudfoundry.com</link>
             <description><![CDATA[<form><p><a href="http://springsource.com">SpringSource</a> has just released the fourth milestone build of the Eclipse support for VMware<a href="http://www.cloudfoundry.com">Cloud Foundry</a>, including support for the just released Micro Cloud Foundry.</p>
 		<p>Cloud Foundry is the industry's first open platform as a service. Run your Spring, Rails and Node.js applications. Deploy from your IDE or command line.</p>
 		<li bindent="3"><a href="http://dist.springsource.com/release/STS/doc/STS-cloud_foundry.pdf">Documentation for the Eclipse support</a></li>
 		<li bindent="3"><a href="http://support.cloudfoundry.com/entries/20329947">Introduction to Using Micro Cloud Foundry with Spring STS</a></li>
 		<li bindent="3"><a href="http://forum.springsource.org/forumdisplay.php?f=32">Community support forum</a></li><p></p></form>]]></description>
-			<pubDate>Wed, 24 Aug 2011 10:38:33 +0100</pubDate>
+			<pubDate>Tue, 25 Oct 2011 10:38:33 +0100</pubDate>
 			<category>version=2.5.1</category>
 <!--			<category>severity=important</category> -->
 			<category>bundle=!com.cloudfoundry.sts.server.feature.group</category>
-			<guid isPermaLink="false">cloud-foundry-support-m4-released</guid>
+			<guid isPermaLink="false">cloud-foundry-support-m5-released</guid>
 		</item>
 <!--
 		<item>

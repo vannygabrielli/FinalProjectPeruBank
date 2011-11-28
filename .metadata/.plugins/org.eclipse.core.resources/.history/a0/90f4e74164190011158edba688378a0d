@@ -1,0 +1,33 @@
+package bastanteo;
+
+import org.junit.Before;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class ConsultarPoderesTest {
+
+	
+
+	@Test(expected = PeruBankException.class)
+	public void deberiaDevolverLaInformacionBuscada() throws PeruBankException{
+		String dni = "40782665";
+		String ruc = "20202020";
+		String tipoIntervencion = "Solo firma";
+		String codigoGrupoBastanteo = "A";
+
+		AdmRepresentante admRepresentante = new AdmRepresentante();
+		Representante representante = admRepresentante.buscarRepresentante(dni);
+		AdmBastanteo admBastanteo = new AdmBastanteo();
+		Bastanteo bastanteo = admBastanteo.buscarBastanteo("A");
+		AdmClientes admClientes = new AdmClientes();
+		Cliente cliente = admClientes.buscarCliente(ruc);
+
+		assertEquals(dni, representante.getDni());
+		assertEquals(ruc, cliente.getRuc());
+		assertEquals(codigoGrupoBastanteo,
+				representante.getCodigoGrupoBastanteo());
+		assertEquals(tipoIntervencion, bastanteo.getTipoIntervencion());
+
+	}
+
+}

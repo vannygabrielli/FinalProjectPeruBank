@@ -1,0 +1,24 @@
+package bastanteo;
+
+
+
+public class Bastanteo {
+	private String codigoGrupoBastanteo;
+	private String desBastanteo;
+	private String codPoder;
+	private String tipoIntervencion;
+	private Date fecha;
+	private int empleados;
+
+	public Bastanteo(String codigoGrupoBastanteo, String desBastanteo, String codPoder,
+			String tipoIntervencion, String fecha, int empleados) {
+		super(); 
+		this.codigoGrupoBastanteo = codigoGrupoBastanteo;
+		this.desBastanteo = desBastanteo;
+		this.codPoder = codPoder;
+		this.tipoIntervencion = tipoIntervencion;
+		this.fecha = fecha;
+		this.empleados = empleados;		
+	}
+
+}

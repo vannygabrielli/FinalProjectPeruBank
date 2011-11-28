@@ -1,0 +1,34 @@
+package bastanteo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AdmBastanteo {
+	List<Bastanteo> bastanteos;
+
+	// 2do. En el constructor inicializo
+	public AdmBastanteo() {
+		bastanteos = new ArrayList<Bastanteo>();
+	}
+
+	public void registrarBastanteo(String codigoGrupoBastanteo, String desBastanteo, String codPoder,
+			String tipoIntervencion, String fecha, double importe,String codigoUsuario) 
+			throws PeruBankException 
+			{
+		
+		Bastanteo nuevoBastanteo = new Bastanteo(codigoGrupoBastanteo, desBastanteo, codPoder,
+				tipoIntervencion,fecha, importe,codigoUsuario);
+		//añaden a la lista
+		bastanteos.add(nuevoBastanteo);
+		
+		
+	}
+	
+	public Bastanteo buscarBastanteo(String codigoGrupoBastanteo) {
+        for(Bastanteo bastanteo : bastanteos)
+            if (bastanteo.getCodigoGrupoBastanteo().equals(codigoGrupoBastanteo))
+                return bastanteo;
+        return null;
+	}
+	
+}

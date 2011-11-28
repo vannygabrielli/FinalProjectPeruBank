@@ -1,0 +1,96 @@
+package bastanteo;
+
+import org.junit.Before;
+import static org.junit.Assert.*;
+import org.junit.Test;
+
+public class ConsultarPoderesTest {
+
+	@Before
+	public void cargarListas() throws PeruBankException {
+		// Administración de Clientes
+		AdmClientes admClientes = new AdmClientes();
+
+		admClientes.registrarCliente("CLI001", "20202020", "Nestle Perú",
+				"12/01/1980", "SAC", 3500);
+		admClientes.registrarCliente("CLI002", "30303030", "Latin Corporation",
+				"23/01/1990", "SAC", 1000);
+		admClientes.registrarCliente("CLI003", "40404040", "Negusa",
+				"11/11/1999", "SA", 500);
+		admClientes.registrarCliente("CLI004", "50505050",
+				"Importaciones Barzolla", "10/12/1980", "EIRL", 800);
+		admClientes.registrarCliente("CLI005", "60606060",
+				"Samsung Technologies", "09/11/1995", "SAC", 200);
+
+		// Administración de Poderes
+		AdmPoderes admPod = new AdmPoderes();
+		admPod.registrarPoderes("P001", "Pago salario personal administrativo",
+				"Activo", "US001");
+		admPod.registrarPoderes("P002", "Pago salario personal seguridad",
+				"Activo", "US001");
+		admPod.registrarPoderes("P003",
+				"Pago de servicios de luz,agua y teléfono", "Activo", "US001");
+		admPod.registrarPoderes("P004",
+				"Contrato por alquiler de local comercial", "Activo", "US001");
+		admPod.registrarPoderes("P005",
+				"Firma para autorización de compra de equipos de cómputo",
+				"Activo", "US001");
+
+		// Administración de Bastanteos
+
+		AdmBastanteo admBastanteo = new AdmBastanteo();
+
+		admBastanteo.registrarBastanteo("A",
+				"Gerente de RR.HH, Administración y Logística", "P001",
+				"Solo firma", "10/08/2010", 300.00, "US001");
+		admBastanteo.registrarBastanteo("B", "Socios minoritarios", "P002",
+				"Solo firma", "11/11/2011", 300.00, "US001");
+		admBastanteo.registrarBastanteo("C",
+				"Administrador, Contador y Jefe de Logística", "P003",
+				"En conjunto con las personas del grupo", "09/08/2010", 300.00,
+				"US001");
+
+		// Administración de Representantes
+		AdmRepresentante admRepresentante = new AdmRepresentante();
+
+		admRepresentante.registrarRepresentante("REP001", "Derwin Ramos",
+				"40782665", "DNI", "CLI001", "A", "Gerente de Administración",
+				"US001");
+		admRepresentante.registrarRepresentante("REP002", "Omar De La Cruz",
+				"40712565", "DNI", "CLI001", "B", "Socio", "US001");
+		admRepresentante.registrarRepresentante("REP003", "Eduardo Ortega",
+				"45212565", "DNI", "CLI002", "A", "Gerente de RR.HH", "US001");
+		admRepresentante.registrarRepresentante("REP004", "Renzo Lambert",
+				"40722565", "DNI", "CLI002", "B", "Socio", "US001");
+		admRepresentante.registrarRepresentante("REP005", "Eduardo Ortega",
+				"45212565", "DNI", "CLI003", "A", "Gerente de Administración",
+				"US001");
+		admRepresentante.registrarRepresentante("REP005",
+				"Hermenegildo Condori", "402012565", "DNI", "CLI003", "B",
+				"Socio", "US001");
+	}
+	
+
+	@Test(expected = PeruBankException.class)
+	public void deberiaDevolverLaInformacionBuscada() throws PeruBankException{
+		String dni = "40782665";
+		String ruc = "20202020";
+		String tipoIntervencion = "Solo firma";
+		String codigoGrupoBastanteo = "A";
+
+		AdmRepresentante admRepresentante = new AdmRepresentante();
+		Representante representante = admRepresentante.buscarRepresentante(dni);
+		AdmBastanteo admBastanteo = new AdmBastanteo();
+		Bastanteo bastanteo = admBastanteo.buscarBastanteo("A");
+		AdmClientes admClientes = new AdmClientes();
+		Cliente cliente = admClientes.buscarCliente(ruc);
+
+		assertEquals(dni, representante.getDni());
+		assertEquals(ruc, cliente.getRuc());
+		assertEquals(codigoGrupoBastanteo,
+				representante.getCodigoGrupoBastanteo());
+		assertEquals(tipoIntervencion, bastanteo.getTipoIntervencion());
+
+	}
+
+}

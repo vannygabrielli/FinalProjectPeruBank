@@ -1,0 +1,25 @@
+package bastanteo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class AdmBastanteo {
+List<Bastanteo> bastanteos;
+	
+	//2do. En el constructor inicializo
+	public AdmBastanteo(){
+		bastanteos = new ArrayList<Bastanteo>();
+	}
+	
+	
+	public void registrarCliente(String codigo, String ruc, String razonSocial,
+			String fechaInicio, String tipoEmpresa, int empleados) 
+			throws PeruBankException 
+			{
+		
+		
+		
+		
+	}
+
+}
