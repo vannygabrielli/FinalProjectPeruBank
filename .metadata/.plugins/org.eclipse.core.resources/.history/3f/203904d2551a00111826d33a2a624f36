@@ -6,14 +6,11 @@ import static org.junit.Assert.*;
 
 
 public class ConsultarPoderesTest {
-	AdmClientes admClientes = new AdmClientes();
-	AdmPoderes admPod = new AdmPoderes();
-	AdmBastanteo admBastanteo = new AdmBastanteo();
-	AdmRepresentante admRepresentante = new AdmRepresentante();
+
 	@Before
 	public void cargarListas() throws PeruBankException{
 		// Administración de Clientes
-		
+		AdmClientes admClientes = new AdmClientes();
 
 		admClientes.registrarCliente("CLI001", "20202020", "Nestle Perú",
 				"12/01/1980", "SAC", 3500);
@@ -27,7 +24,7 @@ public class ConsultarPoderesTest {
 				"Samsung Technologies", "09/11/1995", "SAC", 200);
 
 		// Administración de Poderes
-		
+		AdmPoderes admPod = new AdmPoderes();
 		admPod.registrarPoderes("P001", "Pago salario personal administrativo",
 				"Activo", "US001");
 		admPod.registrarPoderes("P002", "Pago salario personal seguridad",
@@ -42,7 +39,7 @@ public class ConsultarPoderesTest {
 
 		// Administración de Bastanteos
 
-		
+		AdmBastanteo admBastanteo = new AdmBastanteo();
 
 		admBastanteo.registrarBastanteo("A",
 				"Gerente de RR.HH, Administración y Logística", "P001",
@@ -55,7 +52,7 @@ public class ConsultarPoderesTest {
 				"US001");
 
 		// Administración de Representantes
-		
+		AdmRepresentante admRepresentante = new AdmRepresentante();
 
 		admRepresentante.registrarRepresentante("REP001", "Derwin Ramos",
 				"40782665", "DNI", "CLI001", "A", "Gerente de Administración",
@@ -82,16 +79,22 @@ public class ConsultarPoderesTest {
 		String tipoIntervencion = "Solo firma";
 		String codigoGrupoBastanteo = "A";
 
+		AdmRepresentante admRepresentante = new AdmRepresentante();
+		AdmBastanteo admBastanteo = new AdmBastanteo();
+		AdmClientes admClientes = new AdmClientes();
 		
 		
+		Representante representante = admRepresentante.buscarRepresentante(dni);
 		
+		Bastanteo bastanteo = admBastanteo.buscarBastanteo("A");
 		
+		Cliente cliente = admClientes.buscarCliente(ruc);
 
-		assertEquals(dni,admRepresentante.buscarRepresentante(dni).getDni());
-		assertEquals(ruc, admClientes.buscarCliente(ruc).getRuc());
+		assertEquals(dni,representante.getDni());
+		assertEquals(ruc, cliente.getRuc());
 		assertEquals(codigoGrupoBastanteo,
-				admRepresentante.buscarRepresentante(dni).getCodigoGrupoBastanteo());
-		assertEquals(tipoIntervencion, admBastanteo.buscarBastanteo(codigoGrupoBastanteo).getTipoIntervencion());
+				representante.getCodigoGrupoBastanteo());
+		assertEquals(tipoIntervencion, bastanteo.getTipoIntervencion());
 		
 		 
 

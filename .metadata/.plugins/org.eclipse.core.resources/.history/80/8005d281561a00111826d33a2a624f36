@@ -77,7 +77,7 @@ public class AdmClientes {
 
 	public Cliente buscarCliente(String codigo) {
         for(Cliente cliente : clientes)
-            if (cliente.getCodigo().equals(codigo)|| cliente.getRuc().equals(codigo))
+            if (cliente.getCodigo().equals(codigo))
                 return cliente;
         return null;
 	}

@@ -85,13 +85,17 @@ public class ConsultarPoderesTest {
 		
 		
 		
+		Representante representante = admRepresentante.buscarRepresentante(dni);
 		
+		Bastanteo bastanteo = admBastanteo.buscarBastanteo("A");
+		
+		Cliente cliente = admClientes.buscarCliente(ruc);
 
 		assertEquals(dni,admRepresentante.buscarRepresentante(dni).getDni());
-		assertEquals(ruc, admClientes.buscarCliente(ruc).getRuc());
+		assertEquals(ruc, cliente.getRuc());
 		assertEquals(codigoGrupoBastanteo,
-				admRepresentante.buscarRepresentante(dni).getCodigoGrupoBastanteo());
-		assertEquals(tipoIntervencion, admBastanteo.buscarBastanteo(codigoGrupoBastanteo).getTipoIntervencion());
+				representante.getCodigoGrupoBastanteo());
+		assertEquals(tipoIntervencion, bastanteo.getTipoIntervencion());
 		
 		 
 

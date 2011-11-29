@@ -6,6 +6,18 @@
  <description>Welcome to the home of Spring, the leading platform to build and run enterprise Java applications. Led and sustained by SpringSource, Spring delivers significant benefits for many projects, increasing development productivity and runtime performance while improving test coverage and application quality.</description>
  <language>en</language>
 <item>
+ <title>Spring 3.1.0.RC2 Released</title>
+ <link>http://www.springsource.org/node/3317</link>
+ <description>&lt;p&gt;The second (and intended final) release candidate for Spring 3.1 is now available from our &lt;a href=&quot;http://maven.springframework.org/milestone&quot;&gt;http://maven.springframework.org/milestone&lt;/a&gt; repository or for direct download via &lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community&quot;&gt;community download page&lt;/a&gt;.  This release primarily consists of important bug fixes on the way to GA and fleshing out reference documentation, as well as a few useful minor new features and improvements.  Please take it for a spin in your applications and let us know how it goes.  The final release is just around the corner!&lt;/p&gt;
+&lt;p&gt;&lt;a target=&quot;_blank&quot; href=&quot;http://www.springsource.com/download/community?project=Spring%20Framework&amp;amp;version=3.1.0.RC2&quot;&gt;Download&lt;/a&gt; | &lt;a href=&quot;http://static.springsource.org/spring/docs/3.1.0.RC2/spring-framework-reference/html/&quot;&gt;Documentation&lt;/a&gt; (&lt;a href=&quot;http://static.springsource.org/spring/docs/3.1.0.RC2/spring-framework-reference/html/new-in-3.1.html&quot;&gt;What&#039;s new in 3.1&lt;/a&gt;) | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.1.0.RC2/javadoc-api/&quot;&gt;Javadoc API&lt;/a&gt; | &lt;a target=&quot;_blank&quot; href=&quot;http://static.springsource.org/spring/docs/3.1.0.RC2/changelog.txt&quot;&gt;Change Log&lt;/a&gt; | &lt;a href=&quot;https://jira.springsource.org/secure/ReleaseNote.jspa?projectId=10000&amp;amp;version=12598&quot;&gt;JIRA release notes&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Don&#039;t forget that Spring users can ask questions in the &lt;a href=&quot;http://forum.springsource.org/forumdisplay.php?f=21&quot;&gt;community forum&lt;/a&gt; and identify issues in &lt;a href=&quot;http://jira.springframework.org/browse/SPR&quot;&gt;JIRA&lt;/a&gt; as well.&lt;/p&gt;
+</description>
+ <comments>http://www.springsource.org/node/3317#comments</comments>
+ <pubDate>Tue, 29 Nov 2011 03:38:01 +0000</pubDate>
+ <dc:creator>Chris Beams</dc:creator>
+ <guid isPermaLink="false">3317 at http://www.springsource.org</guid>
+</item>
+<item>
  <title>SpringSource Tool Suite 2.8.1 released</title>
  <link>http://www.springsource.org/node/3316</link>
  <description>&lt;p&gt;The SpringSource Tool Suite team is pleased to announce the new release 2.8.1 of the SpringSource Tool Suite (STS).&lt;/p&gt;
@@ -383,26 +395,6 @@ exended the previous Milestone release with new functionality and took care of r
  <pubDate>Wed, 09 Nov 2011 04:32:32 +0000</pubDate>
  <dc:creator>Josh Long</dc:creator>
  <guid isPermaLink="false">3301 at http://www.springsource.org</guid>
-</item>
-<item>
- <title>Video: Better Productivity: Grails 2.0</title>
- <link>http://www.springsource.org/node/3300</link>
- <description>&lt;p&gt;The &lt;a href=&quot;http://www.grails.org&quot;&gt;Grails&lt;/a&gt; team has been driving toward the imminent release of Grails 2, a substantial upgrade to the hugely popular rapid development tool. This video by &lt;a href=&quot;http://blog.springsource.org/author/peter-ledbrook/&quot;&gt;Peter Ledbrook&lt;/a&gt; introduces the new usability features that improve productivity, such as the new interactive command line, improved class reloading, and much better unit testing support. The video also covers powerful new features such as &#039;where&#039; queries, database migrations, and static resource (CSS, JS, etc.) handling. If you are currently using Grails or thinking about trying it out, then you must watch this video: &lt;a href=&quot;http://www.youtube.com/watch?v=IHUPLOnUF4g&quot;&gt;Better Productivity: Grails 2.0&lt;/a&gt;.
-&lt;/p&gt;
-
-&lt;p style=&quot;text-align: center&quot;&gt;&lt;object width=&quot;560&quot; height=&quot;349&quot;&gt;
-&lt;param name=&quot;movie&quot; value=&quot;http://www.youtube.com/v/KNI2c6yS2Bo?version=3&amp;amp;hl=en_US&quot; /&gt;
-&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot; /&gt;
-&lt;param name=&quot;allowscriptaccess&quot; value=&quot;always&quot; /&gt;&lt;embed src=&quot;http://www.youtube.com/v/IHUPLOnUF4g?version=3&amp;amp;hl=en_US&quot; type=&quot;application/x-shockwave-flash&quot; width=&quot;560&quot; height=&quot;349&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
-
-&lt;p&gt;There is also a shorter version of the presentation that just &lt;a href=&quot;http://www.youtube.com/v/IHUPLOnUF4g&quot;&gt;demonstrates Cloud Foundry&lt;/a&gt;. Be sure to thumbs up the presentation if you find it useful and &lt;a href=&quot;http://www.youtube.com/subscription_center?adduser=SpringSourceDev&quot;&gt;subscribe to the SpringSourceDev channel&lt;/a&gt; to receive updates about all the latest presentation recordings and screencasts.&lt;/p&gt;
-
-</description>
- <comments>http://www.springsource.org/node/3300#comments</comments>
- <category domain="http://www.springsource.org/taxonomy/term/4">News and Announcements</category>
- <pubDate>Wed, 09 Nov 2011 01:23:21 +0000</pubDate>
- <dc:creator>Adam Fitzgerald</dc:creator>
- <guid isPermaLink="false">3300 at http://www.springsource.org</guid>
 </item>
 </channel>
 </rss>
