@@ -78,13 +78,9 @@ public class ConsultarPoderesTest {
 	@Test
 	public void deberiaDevolverLaInformacionBuscada() throws PeruBankException{
 		String dni = "40782665";
-		String ruc = "20202020";
+		String ruc = "20102020";
 		String tipoIntervencion = "Solo firma";
-		String codigoGrupoBastanteo = "A";
-
-		
-		
-		
+		String codigoGrupoBastanteo = "B";		
 		
 
 		assertEquals(dni,admRepresentante.buscarRepresentante(dni).getDni());
