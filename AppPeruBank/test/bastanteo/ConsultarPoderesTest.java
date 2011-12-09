@@ -3,7 +3,7 @@ package bastanteo;
 import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
-
+//Prueba de Trabajo colaborativo atraves de GitHub 
 
 public class ConsultarPoderesTest {
 	AdmClientes admClientes = new AdmClientes();
