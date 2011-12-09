@@ -4,6 +4,7 @@ import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 //Prueba de Trabajo colaborativo atraves de GitHub 
+//Prueba de merge - Eduardo
 
 public class ConsultarPoderesTest {
 	AdmClientes admClientes = new AdmClientes();
@@ -13,7 +14,7 @@ public class ConsultarPoderesTest {
 	@Before
 	public void cargarListas() throws PeruBankException{
 		// Administración de Clientes
-		
+			
 
 		admClientes.registrarCliente("CLI001", "20202020", "Nestle Perú",
 				"12/01/1980", "SAC", 3500);
