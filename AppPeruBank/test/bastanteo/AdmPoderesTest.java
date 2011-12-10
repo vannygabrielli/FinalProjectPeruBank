@@ -11,7 +11,7 @@ public class AdmPoderesTest {
 	public void siIngresoDatosDeberiaRegistrarPoderes()
 			throws PeruBankException {
 
-		//Arranque preparar el escenario
+		// Arranque preparar el escenario
 		String codigoPoder = "CHCO";
 		String desPoder = "Cobro de cheques";
 		String tipProd = "Activo";
@@ -19,15 +19,16 @@ public class AdmPoderesTest {
 
 		AdmPoderes adm = new AdmPoderes();
 
-		//Ejecutar
+		// Ejecutar
 		adm.registrarPoderes(codigoPoder, desPoder, tipProd, codUsuario);
 
 		Poder poder = adm.buscarPoder(codigoPoder);
 
-		//Validar objeto poder diferente de null
+		// Verificar
+		// Validar objeto poder diferente de null
 		assertNotNull(poder);
 
-		//Validar datos registrados sean correctos
+		// Validar datos registrados sean correctos
 		assertEquals(poder.getCodigoPoder(), codigoPoder);
 		assertEquals(poder.getDesPoder(), desPoder);
 		assertEquals(poder.getTipProducto(), tipProd);
@@ -38,7 +39,7 @@ public class AdmPoderesTest {
 	@Test(expected = PeruBankException.class)
 	public void deberiaValidarDatosRequeridos() throws PeruBankException {
 
-		//Arranque preparar el escenario
+		// Arranque preparar el escenario
 		String codigoPoder = "";
 		String desPoder = "Cobro de cheques";
 		String tipProd = "Activo";
@@ -46,7 +47,7 @@ public class AdmPoderesTest {
 
 		AdmPoderes adm = new AdmPoderes();
 
-		//Ejecutar
+		// Ejecutar
 		adm.registrarPoderes(codigoPoder, desPoder, tipProd, CodUser);
 	}
 
@@ -55,7 +56,7 @@ public class AdmPoderesTest {
 	public void siIngresoDatosDuplicadosNoDeberiaRegistrarPoderes()
 			throws PeruBankException {
 
-		//Arranque preparar el escenario
+		// Arranque preparar el escenario
 		String codigoPoder = "CHCO";
 		String desPoder = "Retiro Efectivo";
 		String tipProd = "Activo";
@@ -63,11 +64,11 @@ public class AdmPoderesTest {
 
 		AdmPoderes adm = new AdmPoderes();
 
-		//Ejecutar
-		//El primero se ejecuta sin problemas
+		// Ejecutar
+		// El primero se ejecuta sin problemas
 		adm.registrarPoderes(codigoPoder, desPoder, tipProd, codUsuario);
 
-		//El segundo debe arrojar el exception, registro duplicado
+		// El segundo debe arrojar el exception, registro duplicado
 		adm.registrarPoderes(codigoPoder, desPoder, tipProd, codUsuario);
 	}
 }

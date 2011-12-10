@@ -1,85 +1,137 @@
 package bastanteo;
 
+import java.util.Calendar;
 
 public class Bastanteo {
-	
-	private String codigoGrupoBastanteo;
-	private String desBastanteo;
+
+	private String codCli;
+	private String idGrupoBast;
+	private String tipoInterv;
 	private String codPoder;
-	private String tipoIntervencion;
-	private String fecha;
-	private double importe;
-	private String codigoUsuario;
-
-	public Bastanteo(String codigoGrupoBastanteo, String desBastanteo, String codPoder,
-			String tipoIntervencion, String fecha, double importe,String codigoUsuario) {
-		super(); 
-		this.codigoGrupoBastanteo = codigoGrupoBastanteo;
-		this.desBastanteo = desBastanteo;
-		this.codPoder = codPoder;
-		this.tipoIntervencion = tipoIntervencion;
-		this.fecha = fecha;
-		this.importe = importe;	
-		this.codigoUsuario = codigoUsuario;		
-	}
+	private String otrGpoBast;
+	private String moneda;
+	private Double importe;
+	private String codUser;
+	private Calendar fecReg;
+	private Calendar fecVenc;
 	
 	
-	public String getCodigoGrupoBastanteo() {
-		return codigoGrupoBastanteo;
+	public Bastanteo(String codCli, String idGrupoBast, String tipoInterv,
+			String codPoder, String otrGpoBast, String moneda, Double importe, 
+			String codUser,  Calendar fecReg, Calendar fecVenc) {
+		
+        super();  //el super siempre va en primer lugar
+		
+		this.codCli       =codCli;
+		this.idGrupoBast = idGrupoBast;
+		this.tipoInterv  = tipoInterv;
+		this.codPoder    = codPoder;
+		this.otrGpoBast  = otrGpoBast;
+		this.moneda      = moneda;
+		this.importe     = importe;	
+		this.setCodUser(codUser);
+		this.fecReg      = fecReg;
+		this.fecVenc     = fecVenc;
+				
 	}
 
-	public void setCodigoGrupoBastanteo(String codigoGrupoBastanteo) {
-		this.codigoGrupoBastanteo = codigoGrupoBastanteo;
+
+	public String getCodCli() {
+		return codCli;
 	}
 
-	public String getDesBastanteo() {
-		return desBastanteo;
+
+	public void setCodCli(String codCli) {
+		this.codCli = codCli;
 	}
 
-	public void setDesBastanteo(String desBastanteo) {
-		this.desBastanteo = desBastanteo;
+
+	public String getIdGrupoBast() {
+		return idGrupoBast;
 	}
+
+
+	public void setIdGrupoBast(String idGrupoBast) {
+		this.idGrupoBast = idGrupoBast;
+	}
+
+
+	public String getTipoInterv() {
+		return tipoInterv;
+	}
+
+
+	public void setTipoInterv(String tipoInterv) {
+		this.tipoInterv = tipoInterv;
+	}
+
 
 	public String getCodPoder() {
 		return codPoder;
 	}
 
+
 	public void setCodPoder(String codPoder) {
 		this.codPoder = codPoder;
 	}
 
-	public String getTipoIntervencion() {
-		return tipoIntervencion;
+
+	public String getMoneda() {
+		return moneda;
 	}
 
-	public void setTipoIntervencion(String tipoIntervencion) {
-		this.tipoIntervencion = tipoIntervencion;
+
+	public void setMoneda(String moneda) {
+		this.moneda = moneda;
 	}
 
-	public String getFecha() {
-		return fecha;
-	}
 
-	public void setFecha(String fecha) {
-		this.fecha = fecha;
-	}
-
-	public double getImporte() {
+	public Double getImporte() {
 		return importe;
 	}
 
-	public void setImporte(double importe) {
+
+	public void setImporte(Double importe) {
 		this.importe = importe;
 	}
 
-	public String getCodigoUsuario() {
-		return codigoUsuario;
+
+	public Calendar getFecReg() {
+		return fecReg;
 	}
 
-	public void setCodigoUsuario(String codigoUsuario) {
-		this.codigoUsuario = codigoUsuario;
+
+	public void setFecReg(Calendar fecReg) {
+		this.fecReg = fecReg;
 	}
 
-	
 
+	public Calendar getFecVenc() {
+		return fecVenc;
+	}
+
+
+	public void setFecVenc(Calendar fecVenc) {
+		this.fecVenc = fecVenc;
+	}
+
+
+	public String getOtrGpoBast() {
+		return otrGpoBast;
+	}
+
+
+	public void setOtrGpoBast(String otrGpoBast) {
+		this.otrGpoBast = otrGpoBast;
+	}
+
+
+	public String getCodUser() {
+		return codUser;
+	}
+
+
+	public void setCodUser(String codUser) {
+		this.codUser = codUser;
+	}
 }

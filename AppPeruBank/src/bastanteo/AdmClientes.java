@@ -34,7 +34,6 @@ public class AdmClientes {
 				empleados);
 		//añaden a la lista
         clientes.add(nuevoCliente);
-		
 	}
 
 
@@ -77,7 +76,14 @@ public class AdmClientes {
 
 	public Cliente buscarCliente(String codigo) {
         for(Cliente cliente : clientes)
-            if (cliente.getCodigo().equals(codigo)|| cliente.getRuc().equals(codigo))
+            if (cliente.getCodigo().equals(codigo))
+                return cliente;
+        return null;
+	}
+	
+	public Cliente buscarClienteRuc(String ruc) {
+        for(Cliente cliente : clientes)
+            if (cliente.getRuc().equals(ruc))
                 return cliente;
         return null;
 	}

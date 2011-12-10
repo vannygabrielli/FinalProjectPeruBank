@@ -76,14 +76,16 @@ public class AdmRepresentante {
 	
 	public Representante buscarRepresentante(String codigoRep) {
 		 for(Representante representante : representantes)
-	            if (representante.getCodigoRep().equals(codigoRep) || representante.getDni().equals(codigoRep))
-	                return representante;	 
-		 
+	            if (representante.getCodigoRep().equals(codigoRep))
+	                return representante;
 	        return null;
 	}
-	public int cantidadDeRepresentante(){
-		return representantes.size();
+	
+	public Representante buscarRepresentanteDni(String dni) {
+		 for(Representante representante : representantes)
+	            if (representante.getDni().equals(dni))
+	                return representante;
+	        return null;
 	}
-
 
 }
